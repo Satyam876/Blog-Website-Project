@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Roboto&family=Ubuntu:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 40rem;
+}
+
+h1{
+    margin: 20px 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-input-class{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.form-input-class input,textarea{
+    padding: 12px 40px;
+    margin-top: 8px;
+    width: 90%;
+}
+
+.btn{
+    display: flex;
+    margin: 20px auto;
+    padding: 8px 32px;
+    background-color: #1877f2;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #1877f2;
+    border-radius: 6px;
+}

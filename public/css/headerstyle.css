@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Roboto&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display:flex;
+    background-color: #f7ddf4;                  
+}
+
+.navbar h1{
+    margin: 28px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-items ul{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 548px;
+}
+
+.items{
+    list-style: none;
+}
+
+.items a{
+    padding:0 30px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}

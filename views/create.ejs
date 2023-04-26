@@ -1,0 +1,27 @@
+<%- include('partials/header.ejs') %> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/createstyle.css">
+</head>
+<body>
+    <h1>COMPOSE YOUR POST !</h1>
+    <form action="/create" method="post">
+        <div class="form-input-class">
+            <label for="postTitle"> TITLE</label><br>
+            <input type="text" name="postTitle">
+        </div><br>
+        <div class="form-input-class">
+            <label for="postContent">PUBLISH</label><br>
+            <textarea cols="100" rows="10" name="postContent"></textarea>
+        </div>
+        <button type="submit" name="publishButton" class="btn">POST</button>
+    </form>
+</body>
+</html>
+
+<%- include('partials/footer.ejs') %> 
